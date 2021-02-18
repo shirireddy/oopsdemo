@@ -1,0 +1,13 @@
+package com.valuemomentum.training.collections;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		int[] arr= {1,2,3,4};
+		for(int i: arr) {
+			arr[i]=0;
+			System.out.println(i);
+		}
+	}
+
+}
